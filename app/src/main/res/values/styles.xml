@@ -1,20 +1,40 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="LoadApp" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/montserrat</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
+    <style name="LoadApp.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="LoadApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="LoadApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="LoadApp.Text">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+    <style name="LoadApp.Title" parent="LoadApp.Text">
+        <item name="android:textSize">@dimen/title</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+    <style name="LoadApp.Subtitle" parent="LoadApp.Text">
+        <item name="android:textSize">@dimen/subtitle</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+    <style name="LoadApp.Body" parent="LoadApp.Text">
+        <item name="android:textSize">@dimen/body</item>
+    </style>
+    <style name="LoadApp.RadioButton" parent="LoadApp.Body">
+        <item name="android:padding">@dimen/padding_md</item>
+    </style>
+
 
 </resources>

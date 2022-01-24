@@ -2,4 +2,12 @@
     <dimen name="fab_margin">16dp</dimen>
 
     <dimen name="default_text_size">20sp</dimen>
+    <dimen name="padding_md">16dp</dimen>
+
+    <dimen name="title">28sp</dimen>
+    <dimen name="body">18sp</dimen>
+    <dimen name="margin_md">16dp</dimen>
+    <dimen name="margin_lg">32dp</dimen>
+    <dimen name="subtitle">25sp</dimen>
+
 </resources>
